@@ -1,70 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Features
+CSV File Upload: Users can upload CSV files to be used as input data for their workflows.
+Workflow Configuration: Users can configure workflows by selecting operations from a predefined set of options.
+Execution: Workflows can be executed, with each operation being performed sequentially.
+Operation Types: Supported operation types include:
+Filter Data: Filters the uploaded data based on certain criteria.
+Wait: Pauses the workflow execution for a specified period of time.
+Convert Format: Converts the data into a different format, such as JSON.
+Send POST Request: Sends the data to a specified endpoint via a POST request.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the Repository:bash
 
-### `npm run build`
+Copy code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone <repository-url>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd workflow-frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install Dependencies:
+bash
+Copy code
+npm install
+Start the Development Server:
+bash
+Copy code
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
+React: Used for building the frontend user interface.
+React Flow: Provides the workflow visualization and manipulation components.
+React Bootstrap: Used for styling and UI components.
+Axios: Used for making HTTP requests to the backend API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Folder Structure
+src/
+components/: Contains reusable components used throughout the application.
+pages/: Contains the main pages of the application, such as the workflow canvas and file upload page.
+services/: Contains service functions for making API requests and handling data.
+utils/: Contains utility functions used across the application.
+App.js: Main component where routes are defined.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1680" alt="Screenshot 2024-04-27 at 11 56 57 PM" src="https://github.com/jayanth40/work-flow-frontend/assets/122151719/14d97b40-96c6-4f0b-8f7c-d73ddbb2c530">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1680" alt="Screenshot 2024-04-27 at 11 57 21 PM" src="https://github.com/jayanth40/work-flow-frontend/assets/122151719/8bba3494-d4ca-4e4f-836f-620fa2473a69">
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<img width="1680" alt="Screenshot 2024-04-27 at 11 57 25 PM" src="https://github.com/jayanth40/work-flow-frontend/assets/122151719/26650d5c-03ee-4878-aca4-a86756ea84df">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img width="1680" alt="Screenshot 2024-04-27 at 11 56 57 PM" src="https://github.com/jayanth40/work-flow-frontend/assets/122151719/fd5fcc60-6b34-40e7-bdc2-daba94478992">
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
